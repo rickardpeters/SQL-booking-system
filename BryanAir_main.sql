@@ -1,4 +1,4 @@
-/*BRYANAIR - Elly Sjölund ellsj457, Rickard Peters ricpe737*/ 
+
 
 SET FOREIGN_KEY_CHECKS=0; -- to disable them
 
@@ -99,7 +99,7 @@ CREATE TABLE contact (
     PRIMARY KEY (passportNumber)
 );
   
-CREATE TABLE booking ( /* jätteosäker på hur den här ska vara med isBooking på reservations!? */
+CREATE TABLE booking (
 	bookingNumber INTEGER,
     ticketNumber INTEGER,
     price DOUBLE,
